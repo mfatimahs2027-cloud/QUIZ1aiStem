@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hours vs Exam Score</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+
+        .caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Data Visualization Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Study Hours vs Exam Score</h2>
+
+        <img src="images/study_hours_vs_score.png"
+             alt="Scatter plot showing the relationship between study hours and exam scores."
+             class="responsive-img">
+
+        <p class="caption">
+            This chart shows a positive correlation between study hours and exam scores among students.  
+            Based on this trend, I would choose to increase my study time before exams to improve performance.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
+</body>
+</html>
